@@ -1,0 +1,90 @@
+What is a brower?
+
+What is HTML?
+It is NOT a programming language
+It is a text formatting language
+It helps you describe how a webpage should look
+It allows you to place content on a page
+
+The standard generalized markup language (SGML) is a standard for defining generalized markup languages for documents
+EXtensible HyperText Markup Language.  XHTML was developed to make HTML more extensible and flexible to worth with othe data formats (XML) XHTML comes with much stricter eror handling
+
+XHTML is a superset of HTML5
+ SGML is a superset of XHTML
+
+Important to note that HTML does NOT display in the same way on all browers
+
+Local development is when you build websites on your machine that is not connected to the Internet
+Developers often start a project this way before putting it on a server
+We will use a text editor to write the pages and then drag to brower to render
+
+On the frontend we use
+	personal computer
+	browser
+	html + css
+
+On the back end
+	local server (no internet)
+	server programming files
+
+--------------------------------
+HTML5 Intro
+
+The Tag is the fundamental unit in HTML
+<tag> start of tag
+</tag> end of taag
+tag is a command applied to text
+attribute modifies the behaviour of the command
+
+ex) <tag attribute="value"> some text </tag>
+
+an html document start template is
+<!DOCTYPE html>
+<html>
+<head>
+for metadata
+<\head>
+<body>
+for content
+<\body>
+</html>
+
+the doctype command is sgml document definition but it is optional
+The browers will usually assume html (compatibility mode) With ut, the brower uses all HTML5 interpretation convention so it is best to use the doctype
+
+Head info
+charset -> which characters to use (ascii or utf-8)
+<meta charset="utf-8">
+name -> tekks search engines infor about ur webiste
+<meta name="keywords" content""
+<meta name="description" content="my website description">
+<title>in browers command bar</title>
+
+<!-- > is for comments
+some common attributes are
+<body background="image file"
+	bgcolor="hexval"
+	bgproperities="fixed"
+>
+fixed indicated background does not move
+<font> to specifiy text properties
+<img> give path to image and size
+
+bullet list <ul> <li></li> ... </ul>
+numbered list <ol> <li></li> ..... </ol>
+definiution lists <dl> <dt> <dd> ..... </dl>
+
+hyperline <a href="">>
+iframe for custom height window
+
+html5 has support for different sections 
+<header>
+<nav>
+<section>
+<article>
+<aside> (sidebar)
+<footer>
+<details>
+<summary> for details
+
+sections are special names for divs
